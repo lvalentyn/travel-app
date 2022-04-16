@@ -1,0 +1,62 @@
+.cards {
+	width: 100%;
+	padding: 6rem 1rem;
+	background-color: #000;
+
+	&__container {
+		display: grid;
+		grid-gap: 40px;
+		grid-template-columns: repeat(3, 1fr);
+		max-width: 1140px;
+		margin: auto;
+	}
+
+	&__item {
+		padding: 1rem;
+		text-align: center;
+		border: 1px solid #eee;
+
+		&:hover {
+			background-color: #141414;
+		}
+	}
+
+	&__title {
+		padding: 1rem;
+		font-size: 1.4rem;
+	}
+
+	&__bar {
+		display: block;
+		width: 10%;
+		margin: 1.5rem auto;
+		border-bottom: 1px solid #eee;
+	}
+
+	&__btc {
+		padding: 1rem;
+		font-size: 4rem;
+		font-weight: 600;
+	}
+
+	&__text {
+		color: #eee;
+		padding: 1rem 0;
+		font-size: 1.2rem;
+	}
+
+	&__btn {
+		display: block;
+		width: 80%;
+		margin: 2rem auto;
+	}
+
+	@media screen and (max-width: 980px) {
+		&__container {
+			max-width: 90%;
+			margin: auto;
+			grid-template-columns: 1fr;
+		}
+	}
+
+}
