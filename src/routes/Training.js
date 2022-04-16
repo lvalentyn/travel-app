@@ -1,18 +1,18 @@
 import Navbar from "../components/Navbar/Navbar"
 import HeroImg from "../components/HeroImg/HeroImg"
-import Cards from "../components/Cards/Cards"
+import Info from "../components/Info/Info"
 import Footer from "../components/Footer/Footer"
 import heroImg from '../assets/heroImg.jpg'
 
-const Pricing = () => {
+const Training = () => {
 	return (
 		<div>
 			<Navbar />
-			<HeroImg heading='PRICING' text='Choose your trip' img={heroImg} />
-			<Cards />
+			<HeroImg heading='Training' text='Pre-Flight & In-Flight Training' img={heroImg} />
+			<Info />
 			<Footer />
 		</div>
 	)
 }
 
-export default Pricing
+export default Training
