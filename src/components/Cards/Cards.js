@@ -8,7 +8,7 @@ const Cards = () => {
 		<div className='cards'>
 			<div className='cards__container'>
 				{cards.map((name) => (
-					<div className='cards__item'>
+					<div key={name} className='cards__item'>
 						<h3 className='cards__title'>- {name} -</h3>
 						<span className='cards__bar'></span>
 						<p className='cards__btc'>1 BTC</p>

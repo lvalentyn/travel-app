@@ -51,6 +51,17 @@
 		margin: 2rem auto;
 	}
 
+	@media screen and (min-width: 1240px) {
+		&__item {
+			transition: .3s ease;
+			cursor: pointer;
+
+			&:hover {
+				transform: scale(1.1);
+			}
+		}
+	}
+
 	@media screen and (max-width: 980px) {
 		&__container {
 			max-width: 90%;

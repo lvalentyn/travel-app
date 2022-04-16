@@ -34,8 +34,6 @@ const Footer = () => {
 						</a>
 						<a href="#"><FaLinkedin size={40} style={{ marginRight: '1.5rem' }} /></a>
 						<a href="#"><FaTwitter size={40} /></a>
-
-
 					</div>
 				</div>
 

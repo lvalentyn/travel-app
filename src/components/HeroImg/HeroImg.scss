@@ -1,11 +1,15 @@
 .hero-img {
+	position: relative;
 	width: 100%;
-	height: 50vh;
 	background-color: rgba(0, 0, 0, .3);
 	overflow: hidden;
 
 	&__bg {
 		position: absolute;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
 		z-index: -1;
 
 		img {
@@ -20,7 +24,7 @@
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-		height: 100%;
+		height: 50vh;
 	}
 
 	&__title {

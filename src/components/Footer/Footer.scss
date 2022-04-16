@@ -40,19 +40,41 @@
 		align-items: flex;
 		font-size: 1.4rem;
 
+
 		svg {
 			width: 30px;
 			height: 30px;
 		}
 
+
 		&:not(:last-child) {
 			margin-bottom: 2rem;
+		}
+
+	}
+
+	&__social {
+		a {
+			svg {
+				transition: .3s ease;
+			}
+
+			&:hover {
+				svg {
+					color: rgba(255, 255, 255, .3);
+				}
+			}
 		}
 	}
 
 	@media screen and (max-width:640px) {
 		&__container {
 			grid-template-columns: 1fr;
+			text-align: center;
+		}
+
+		&__left {
+			margin: 0 auto;
 		}
 
 		&__social {

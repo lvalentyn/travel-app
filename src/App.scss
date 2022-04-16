@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;300;400;500;600;700;800&display=swap');
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Outfit',
+    sans-serif;
+  color: #fff;
+  background-color: #000;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  transition: .3s ease;
+
+  &:hover {
+    color: rgba(255, 255, 255, .3);
+  }
+}
+
+.btn {
+  display: block;
+  padding: 12px 32px;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+  cursor: pointer;
+
+  &--light {
+    background-color: rgba(255, 255, 255, .2);
+  }
+
+  &:hover {
+    color: #fff;
+    background-color: rgba(255, 255, 255, .2);
+  }
+}

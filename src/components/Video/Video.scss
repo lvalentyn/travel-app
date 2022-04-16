@@ -29,6 +29,10 @@
 		text-transform: uppercase;
 	}
 
+	&__btn-box {
+		display: flex;
+	}
+
 	&__btn {
 		margin: 1rem .2rem;
 	}
