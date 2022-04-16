@@ -5,11 +5,19 @@ import { FaBars, FaTimes } from 'react-icons/fa'
 import './Navbar.scss'
 
 const Navbar = () => {
-	const [click, setClick] = useState(false);
+	const [click, setClick] = useState(false)
 	const handleClick = () => setClick(!click)
 
+	const [color, setColor] = useState(false)
+
+	const changeColor = () => {
+		(window.scrollY >= 100) ? setColor(true) : setColor(false)
+	}
+
+	window.addEventListener('scroll', changeColor)
+
 	return (
-		<div className='navbar'>
+		<div className={`navbar ${color ? 'sticky' : ''}`}>
 			<Link to='/'><h1 className='navbar__title'>TRAVEL</h1></Link>
 			<ul className={`navbar__menu ${click ? 'active' : ''}`}>
 				<li className='navbar__el'>

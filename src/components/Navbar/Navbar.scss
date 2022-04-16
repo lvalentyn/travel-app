@@ -8,9 +8,15 @@
 	align-items: center;
 	z-index: 10;
 
+	&.sticky {
+		background-color: rgba(0, 0, 0, .85);
+		transition: .3s ease;
+	}
+
 	&__menu {
 		display: flex;
 	}
+
 
 	&__el {
 		padding: 0 1rem;
