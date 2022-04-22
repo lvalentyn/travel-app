@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "//lvalentyn.github.io/travel-app/static/css/main.870c63cb.css",
+    "main.js": "//lvalentyn.github.io/travel-app/static/js/main.7b38abbf.js",
+    "static/media/space.mp4": "//lvalentyn.github.io/travel-app/static/media/space.41584ed51700d249bf73.mp4",
+    "static/media/heroImg.jpg": "//lvalentyn.github.io/travel-app/static/media/heroImg.717ecc48caf23ce480de.jpg",
+    "static/media/moon.jpg": "//lvalentyn.github.io/travel-app/static/media/moon.91396c73f099b0f6971b.jpg",
+    "static/media/pod.jpg": "//lvalentyn.github.io/travel-app/static/media/pod.30776f82b7df80237211.jpg",
+    "index.html": "//lvalentyn.github.io/travel-app/index.html",
+    "main.870c63cb.css.map": "//lvalentyn.github.io/travel-app/static/css/main.870c63cb.css.map",
+    "main.7b38abbf.js.map": "//lvalentyn.github.io/travel-app/static/js/main.7b38abbf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.870c63cb.css",
+    "static/js/main.7b38abbf.js"
+  ]
+}
